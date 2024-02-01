@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/mnmkato/four-card-feature-section)
-- Live Site URL: [Live sit](https://mnmkato.github.io/four-card-feature-section)
+- Live Site URL: [Live site](https://mnmkato.github.io/four-card-feature-section)
 
 ## My process
 
