@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+body{
+font-family: Poppins;
+background-color: hsl(0, 0%, 98%);
+}
+.container{
+    padding: 1rem;
+}
+.main-content{
+text-align: center;
+margin-bottom: 2rem;
+}
+.faint-heading{
+    font-weight: 200;
+}
+h1,h2{
+    color: hsl(234, 12%, 34%);
+}
+p{
+    color:  hsl(229, 6%, 66%);
+}
+.card{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    box-shadow: 0px 5px 25px 2px hsl(229, 6%, 66%) ;
+    margin-bottom: 2rem;
+}
+.card>div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.supervisor{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+.team-builder{
+    border-top: 4px solid  hsl(0, 78%, 62%);
+}
+.karma{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.calculator{
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+@media only screen and (min-width:450px) {
+    body{
+        min-width: 600px;
+    }
+    .cards-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card{
+        margin: 1rem;
+    }
+    .supervisor{
+        grid-area: 2/1/4/2;
+    }
+    .team-builder{
+        grid-area: 1/2/3/3;
+    }
+    .karma{
+        grid-area: 3/2/5/3;
+    }
+    .calculator{
+        grid-area: 2/3/4/4;
+    }
+}
